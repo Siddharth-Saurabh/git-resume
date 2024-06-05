@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+.body {
+    box-sizing: border-box;
+}
+.resume {
+    border: 2px solid black;
+    margin: 8px 300px;
+    display: grid;
+    grid-template-columns: 350px auto;
+   
+}
+.pic {
+    max-height: 140px;
+    max-width: 140px;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    left: 27%;
+    box-shadow: 2px 3px 4px 5px grey;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    margin: 10px;
+    padding-left: 10px;
+
+}
+.details {
+    display: flex;
+    flex-direction: column;   
+    margin-left: 20px;
+    padding-left: 20px;
+    margin: 20px;
+}
+.profile {
+    background-color: rgb(212, 201, 237);
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: larger;
+    padding-bottom: 5px;
+}
+.nam {
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nm {
+    padding: 5px;
+    font-weight: bolder;
+    text-align: center;
+}
+.contact {
+    background-color: rgb(67, 64, 64);
+}
+.contacts{
+    color: white;
+    padding: 20px;
+}
+.info {
+    list-style-type: none;
+    color: white;
+    position: relative;
+    left:13%;
+    padding: 3px;
+}
+hr.cont {
+    border-top:1px solid white;
+    padding: 10px;
+}
+.skill {
+    background-color: rgb(67, 64, 64);
+}
+hr.conti {
+    border-top:1px solid white;
+    padding: 10px;
+}
+.skil {
+    color: white;
+    padding: 20px;
+}
+.skills {
+    list-style-type: none;
+    color: white;
+    position: relative;
+    left:13%;
+    padding: 3px;
+}
+.certificate {
+    background-color: rgb(67, 64, 64);
+}
+.certi {
+    color: white;
+    padding: 20px;
+
+}
+.certific {
+    list-style-type: none;
+    color: white;
+    position: relative;
+    left:13%;
+    padding: 3px;
+    padding-bottom: 15px;
+}
+.ski {
+    font-weight: bolder;
+    font-size: larger;
+}
+.con {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ce {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    padding: 3px;
+    padding-bottom: 7px;
+}
+.objective {
+    padding-bottom:10px;
+}
+hr.obj {
+    border-top:4px solid rgb(72, 70, 70);
+    padding: 10px;
+}
+.Work {
+    padding-bottom: 5px;
+}
+hr.exper {
+    border-top:4px solid rgb(72, 70, 70);
+    padding: 10px;
+}
+.role {
+    list-style-type: lower-greek;
+}
+.ab {
+    font-size: larger;
+    font-weight: bold;
+}
+.projects {
+    padding-bottom: 10px;
+}
+.projec {
+    padding: 2px;
+}
+hr.pro {
+    border-top:4px solid rgb(72, 70, 70);
+    padding: 10px;
+}
+.proj {
+    padding: 2px;
+}
+.education {
+    padding: 3px;
+}
+hr.edu {
+    border-top:4px solid rgb(72, 70, 70);
+    padding: 10px;
+}
+.educ {
+    padding: 3px;
+}
+.ed {
+    list-style-type: square;
+    padding: 3px;
+}
+.abc {
+    padding-bottom: 3px;
+}
